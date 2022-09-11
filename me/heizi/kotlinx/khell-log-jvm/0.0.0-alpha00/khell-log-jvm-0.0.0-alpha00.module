@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../khell-log/0.0.0-alpha00/khell-log-0.0.0-alpha00.module",
+    "group": "me.heizi.kotlinx",
+    "module": "khell-log",
+    "version": "0.0.0-alpha00",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-log-jvm-0.0.0-alpha00.jar",
+          "url": "khell-log-jvm-0.0.0-alpha00.jar",
+          "size": 4966,
+          "sha512": "138689bc3c5af10f8d62b6879593b81a6cfd3eb4105eb14ca73df13f1e71daf953732374322200b973703b59cdda1b247768c071dffe6fe6aba8f92925237f06",
+          "sha256": "48505af1ffbae12bdf4aa1693d59fc0129238f5d3da3221969e062e05a1e50e3",
+          "sha1": "8237883a6c0a8186d4f2ad501333198ccff3fde2",
+          "md5": "46362582acdd8b424366e5471494fb12"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-log-jvm-0.0.0-alpha00.jar",
+          "url": "khell-log-jvm-0.0.0-alpha00.jar",
+          "size": 4966,
+          "sha512": "138689bc3c5af10f8d62b6879593b81a6cfd3eb4105eb14ca73df13f1e71daf953732374322200b973703b59cdda1b247768c071dffe6fe6aba8f92925237f06",
+          "sha256": "48505af1ffbae12bdf4aa1693d59fc0129238f5d3da3221969e062e05a1e50e3",
+          "sha1": "8237883a6c0a8186d4f2ad501333198ccff3fde2",
+          "md5": "46362582acdd8b424366e5471494fb12"
+        }
+      ]
+    }
+  ]
+}

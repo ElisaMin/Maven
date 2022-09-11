@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.heizi.kotlinx",
+    "module": "khell",
+    "version": "0.0.0-alpha00",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "me.heizi.kotlinx",
+          "module": "khell-log",
+          "version": {
+            "requires": "0.0.0-alpha00"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-0.0.0-alpha00.jar",
+          "url": "khell-0.0.0-alpha00.jar",
+          "size": 707,
+          "sha512": "f92d95e35fb56ea5d139a9f3abd431c0ecac6ff0ff67bf793c3546c8c4a717a809cd9dec548bed0939c1d8bb1930fc68d1f48fd818494a592d26c4c0c5a0c6ad",
+          "sha256": "43baad548b30bd0ebe20fb752e151a17e2bb2ab3aaa0133c5f5e479f3fcc76bc",
+          "sha1": "fdda43df6717df758d764aa24442bf36ea4e6235",
+          "md5": "b0480d84c274a503a314b3ed0018d488"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../khell-jvm/0.0.0-alpha00/khell-jvm-0.0.0-alpha00.module",
+        "group": "me.heizi.kotlinx",
+        "module": "khell-jvm",
+        "version": "0.0.0-alpha00"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../khell-jvm/0.0.0-alpha00/khell-jvm-0.0.0-alpha00.module",
+        "group": "me.heizi.kotlinx",
+        "module": "khell-jvm",
+        "version": "0.0.0-alpha00"
+      }
+    }
+  ]
+}
