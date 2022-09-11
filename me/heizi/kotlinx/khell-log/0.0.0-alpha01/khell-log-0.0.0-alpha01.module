@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.heizi.kotlinx",
+    "module": "khell-log",
+    "version": "0.0.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-log-0.0.0-alpha01.jar",
+          "url": "khell-log-0.0.0-alpha01.jar",
+          "size": 676,
+          "sha512": "c380ab4df4a2e430db51d267cb33cbc37b1f580b4a7dbee1f28da57bb38294e3ababe26e82ad1b4a7a582d15d2893f2109896871743634d6b7fe8bafff39b6ac",
+          "sha256": "6014c013a72b4382418f516c19313ca347083b9d17170dab4ac4e5a5794c069e",
+          "sha1": "c36f8cba517b33a976ab84e76db13ff3300fc5b8",
+          "md5": "475172ee2abf784063795e7faa7f58b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../khell-log-jvm/0.0.0-alpha01/khell-log-jvm-0.0.0-alpha01.module",
+        "group": "me.heizi.kotlinx",
+        "module": "khell-log-jvm",
+        "version": "0.0.0-alpha01"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../khell-log-jvm/0.0.0-alpha01/khell-log-jvm-0.0.0-alpha01.module",
+        "group": "me.heizi.kotlinx",
+        "module": "khell-log-jvm",
+        "version": "0.0.0-alpha01"
+      }
+    }
+  ]
+}
