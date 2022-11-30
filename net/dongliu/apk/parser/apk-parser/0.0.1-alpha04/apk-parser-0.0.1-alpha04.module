@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.dongliu.apk.parser",
+    "module": "apk-parser",
+    "version": "0.0.1-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apk-parser-0.0.1-alpha04.jar",
+          "url": "apk-parser-0.0.1-alpha04.jar",
+          "size": 323436,
+          "sha512": "54beac7f4f12d4f3e16d21e2670974345bda79c41028779f7e6815394b9673d9c938d4ba107b4dd0fe64c9daf60b5615e679ef258098208fba6316af8b794def",
+          "sha256": "b0a0fae18cac29a8d8597d07e7f621002e560ea339c5dc7414d4eccd546652be",
+          "sha1": "e78ed6d47e459568adb3f4b4eddd1bed66c0f2c9",
+          "md5": "78bb599bd5996c19e4161aad45fb1d29"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.71.1"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.71.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apk-parser-0.0.1-alpha04.jar",
+          "url": "apk-parser-0.0.1-alpha04.jar",
+          "size": 323436,
+          "sha512": "54beac7f4f12d4f3e16d21e2670974345bda79c41028779f7e6815394b9673d9c938d4ba107b4dd0fe64c9daf60b5615e679ef258098208fba6316af8b794def",
+          "sha256": "b0a0fae18cac29a8d8597d07e7f621002e560ea339c5dc7414d4eccd546652be",
+          "sha1": "e78ed6d47e459568adb3f4b4eddd1bed66c0f2c9",
+          "md5": "78bb599bd5996c19e4161aad45fb1d29"
+        }
+      ]
+    }
+  ]
+}
