@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.heizi.monet-kdrag0n",
+    "module": "compose-m3",
+    "version": "0.0.1-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-metadata-0.0.1-alpha01.jar",
+          "url": "compose-m3-0.0.1-alpha01.jar",
+          "size": 727,
+          "sha512": "4e4f93afd69abbcc9482ad8ea1f036644f15a8b356475d74ac13e35e38ed9c209b587279084a744223374d58373a3900f156441243c74de3e921bb8332d99516",
+          "sha256": "d265ad17c9a86f55c10af2f809954abb28d0a4c352f9bbc06344358b7e0aab36",
+          "sha1": "32a25241112d825ceb0cdaac8025d166c8c67f22",
+          "md5": "05e5e75e19bd328e2b76417ddd8aa74b"
+        }
+      ]
+    },
+    {
+      "name": "windowsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "main"
+      },
+      "available-at": {
+        "url": "../../compose-m3-windows/0.0.1-alpha01/compose-m3-windows-0.0.1-alpha01.module",
+        "group": "me.heizi.monet-kdrag0n",
+        "module": "compose-m3-windows",
+        "version": "0.0.1-alpha01"
+      }
+    },
+    {
+      "name": "windowsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "main"
+      },
+      "available-at": {
+        "url": "../../compose-m3-windows/0.0.1-alpha01/compose-m3-windows-0.0.1-alpha01.module",
+        "group": "me.heizi.monet-kdrag0n",
+        "module": "compose-m3-windows",
+        "version": "0.0.1-alpha01"
+      }
+    },
+    {
+      "name": "windows-jnaApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "jna"
+      },
+      "available-at": {
+        "url": "../../compose-m3-windows-jna/0.0.1-alpha01/compose-m3-windows-jna-0.0.1-alpha01.module",
+        "group": "me.heizi.monet-kdrag0n",
+        "module": "compose-m3-windows-jna",
+        "version": "0.0.1-alpha01"
+      }
+    },
+    {
+      "name": "windows-jnaRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "jna"
+      },
+      "available-at": {
+        "url": "../../compose-m3-windows-jna/0.0.1-alpha01/compose-m3-windows-jna-0.0.1-alpha01.module",
+        "group": "me.heizi.monet-kdrag0n",
+        "module": "compose-m3-windows-jna",
+        "version": "0.0.1-alpha01"
+      }
+    }
+  ]
+}
