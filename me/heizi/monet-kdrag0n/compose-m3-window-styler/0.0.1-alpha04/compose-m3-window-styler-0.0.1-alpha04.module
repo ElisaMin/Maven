@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-m3/0.0.1-alpha04/compose-m3-0.0.1-alpha04.module",
+    "group": "me.heizi.monet-kdrag0n",
+    "module": "compose-m3",
+    "version": "0.0.1-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "window-stylerApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "multiplatform",
+        "system.platform.fork": "window-styler"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.mayakapps.compose",
+          "module": "window-styler",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-window-styler-0.0.1-alpha04.jar",
+          "url": "compose-m3-window-styler-0.0.1-alpha04.jar",
+          "size": 44896,
+          "sha512": "882e6f5d04112d7c6106b547b636256c13505defa1c73624897b8152b797d14ae5aba8c44eae14ff862098465a7b3c0f13a05686fac83b667822e3bcdf10ef2f",
+          "sha256": "52498bc0d2bf862c0c1d57f21c1cc0f21806735349530887938b7c33878ca152",
+          "sha1": "0f73203ddd9a8ed14363323d081bcbd0f936e200",
+          "md5": "4d144ee5c2fd7564cae0ce53cd20dab5"
+        }
+      ]
+    },
+    {
+      "name": "window-stylerRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "multiplatform",
+        "system.platform.fork": "window-styler"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.mayakapps.compose",
+          "module": "window-styler",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "dev.kdrag0n",
+          "module": "colorkt",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "me.heizi.monet-kdrag0n",
+          "module": "monet-kdrag0n",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-window-styler-0.0.1-alpha04.jar",
+          "url": "compose-m3-window-styler-0.0.1-alpha04.jar",
+          "size": 44896,
+          "sha512": "882e6f5d04112d7c6106b547b636256c13505defa1c73624897b8152b797d14ae5aba8c44eae14ff862098465a7b3c0f13a05686fac83b667822e3bcdf10ef2f",
+          "sha256": "52498bc0d2bf862c0c1d57f21c1cc0f21806735349530887938b7c33878ca152",
+          "sha1": "0f73203ddd9a8ed14363323d081bcbd0f936e200",
+          "md5": "4d144ee5c2fd7564cae0ce53cd20dab5"
+        }
+      ]
+    }
+  ]
+}

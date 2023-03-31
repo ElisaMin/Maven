@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../monet-kdrag0n/0.0.1-alpha04/monet-kdrag0n-0.0.1-alpha04.module",
+    "group": "me.heizi.monet-kdrag0n",
+    "module": "monet-kdrag0n",
+    "version": "0.0.1-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monet-kdrag0n-jvm-0.0.1-alpha04.jar",
+          "url": "monet-kdrag0n-jvm-0.0.1-alpha04.jar",
+          "size": 54381,
+          "sha512": "d1a4faa8b872931487290ded74d20ca65c62436ecd1fa9606a0286d60359709d3274959b418153f9e256c194143fec887996bdb3b7a55dbfbcf9b6961734738b",
+          "sha256": "9e207217fcb81ddde009f2d4ddd52e07e518635f40f487ff8f33f56cc8e182ad",
+          "sha1": "dc39efed88bbba79113a1d780ac9f7bbe1c04c46",
+          "md5": "f63a8a703e9465ad379e786b8c927351"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "dev.kdrag0n",
+          "module": "colorkt",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "io.github.aakira",
+          "module": "napier",
+          "version": {
+            "requires": "2.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "monet-kdrag0n-jvm-0.0.1-alpha04.jar",
+          "url": "monet-kdrag0n-jvm-0.0.1-alpha04.jar",
+          "size": 54381,
+          "sha512": "d1a4faa8b872931487290ded74d20ca65c62436ecd1fa9606a0286d60359709d3274959b418153f9e256c194143fec887996bdb3b7a55dbfbcf9b6961734738b",
+          "sha256": "9e207217fcb81ddde009f2d4ddd52e07e518635f40f487ff8f33f56cc8e182ad",
+          "sha1": "dc39efed88bbba79113a1d780ac9f7bbe1c04c46",
+          "md5": "f63a8a703e9465ad379e786b8c927351"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-m3/0.0.1-alpha04/compose-m3-0.0.1-alpha04.module",
+    "group": "me.heizi.monet-kdrag0n",
+    "module": "compose-m3",
+    "version": "0.0.1-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "windowsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "main"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-windows-0.0.1-alpha04.jar",
+          "url": "compose-m3-windows-0.0.1-alpha04.jar",
+          "size": 24521,
+          "sha512": "132e6a38ec1d7ea0ca2275160769df9552ffc2541fb0e059594814af19028dd17a59cfaf852e1a4daf92608ac8a865f1b95a03f8eaea350c5a22aab0e6a12bd2",
+          "sha256": "bdf3b48ba207412acad2c11897ffa39f7b893023fda67ef3d4b18481e0d57c7b",
+          "sha1": "2e75c30e3bc9f1f4d99eb82aa1e5f569c12cae7e",
+          "md5": "346f56ed5b185a085c4bec20bbb381c2"
+        }
+      ]
+    },
+    {
+      "name": "windowsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "main"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "dev.kdrag0n",
+          "module": "colorkt",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "me.heizi.monet-kdrag0n",
+          "module": "monet-kdrag0n",
+          "version": {
+            "requires": "0.0.1-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-windows-0.0.1-alpha04.jar",
+          "url": "compose-m3-windows-0.0.1-alpha04.jar",
+          "size": 24521,
+          "sha512": "132e6a38ec1d7ea0ca2275160769df9552ffc2541fb0e059594814af19028dd17a59cfaf852e1a4daf92608ac8a865f1b95a03f8eaea350c5a22aab0e6a12bd2",
+          "sha256": "bdf3b48ba207412acad2c11897ffa39f7b893023fda67ef3d4b18481e0d57c7b",
+          "sha1": "2e75c30e3bc9f1f4d99eb82aa1e5f569c12cae7e",
+          "md5": "346f56ed5b185a085c4bec20bbb381c2"
+        }
+      ]
+    }
+  ]
+}
