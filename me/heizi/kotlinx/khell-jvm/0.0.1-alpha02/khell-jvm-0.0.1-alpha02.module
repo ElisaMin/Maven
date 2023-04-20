@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../khell/0.0.1-alpha02/khell-0.0.1-alpha02.module",
+    "group": "me.heizi.kotlinx",
+    "module": "khell",
+    "version": "0.0.1-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "me.heizi.kotlinx",
+          "module": "khell-log",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-jvm-0.0.1-alpha02.jar",
+          "url": "khell-jvm-0.0.1-alpha02.jar",
+          "size": 89061,
+          "sha512": "8d38d0e68a0cff735c62a91c71eac7ec0b506d66bb5742c9e3cb8f846194b2b905cd514795641d4b00dc071d778feaeb9f23bfd35dd7d7e5f55caf856a67c8ae",
+          "sha256": "1bbb6ad7bc13423fe1ae5a250d85a6ec2c12ba37296a9f892ed48687e8e1c697",
+          "sha1": "df7f89ee2482352f21481a0b8d0c476713ed05b0",
+          "md5": "3e0e4d06a3721bdb3dfadfa761c4f5da"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "me.heizi.kotlinx",
+          "module": "khell-log",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "me.heizi.kotlinx",
+          "module": "khell-api",
+          "version": {
+            "requires": "0.0.1-alpha02"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-jvm-0.0.1-alpha02.jar",
+          "url": "khell-jvm-0.0.1-alpha02.jar",
+          "size": 89061,
+          "sha512": "8d38d0e68a0cff735c62a91c71eac7ec0b506d66bb5742c9e3cb8f846194b2b905cd514795641d4b00dc071d778feaeb9f23bfd35dd7d7e5f55caf856a67c8ae",
+          "sha256": "1bbb6ad7bc13423fe1ae5a250d85a6ec2c12ba37296a9f892ed48687e8e1c697",
+          "sha1": "df7f89ee2482352f21481a0b8d0c476713ed05b0",
+          "md5": "3e0e4d06a3721bdb3dfadfa761c4f5da"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "khell-jvm-0.0.1-alpha02-sources.jar",
+          "url": "khell-jvm-0.0.1-alpha02-sources.jar",
+          "size": 6583,
+          "sha512": "ebab3722f805d7f6c4b75f17fa01a4593708dc2a3dd1f31e0f32c1a660be22ba8f34fd7e071baa1f7d9fe0cd376c4a83cbf928311acd7664386c4ac4841386cc",
+          "sha256": "39675839f3d78f23c2eea36112e825e1c7d2468945202317cefb7df07a41c25e",
+          "sha1": "0553e1e9d9feeb48247b2e0b5f4dd3760ef1e884",
+          "md5": "37a02ccb6eded86ebb3cefe1b872ffbc"
+        }
+      ]
+    }
+  ]
+}
