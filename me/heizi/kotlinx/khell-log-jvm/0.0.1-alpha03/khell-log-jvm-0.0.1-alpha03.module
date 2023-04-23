@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../khell-log/0.0.1-alpha03/khell-log-0.0.1-alpha03.module",
+    "group": "me.heizi.kotlinx",
+    "module": "khell-log",
+    "version": "0.0.1-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-log-jvm-0.0.1-alpha03.jar",
+          "url": "khell-log-jvm-0.0.1-alpha03.jar",
+          "size": 5933,
+          "sha512": "e61ccf58acd8af01300db65cb8af17e4df8ad586d8785c49ae05ce1acc080d7bf8a2452fba1c2d01bb057c3eaaf8c0c96af85d9325daf4b4ea1cd0f5ed4cbb0e",
+          "sha256": "32115cd2f3ffcf8ab8ad053ca23f52755ab880bc41b5fe3d2fa523d3f0575cbd",
+          "sha1": "47d1c41b5aaf6576e6f25b2d5a71fda30e67fad7",
+          "md5": "b28b1a9fc9d6d233d9b78bc724adfbe4"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-log-jvm-0.0.1-alpha03.jar",
+          "url": "khell-log-jvm-0.0.1-alpha03.jar",
+          "size": 5933,
+          "sha512": "e61ccf58acd8af01300db65cb8af17e4df8ad586d8785c49ae05ce1acc080d7bf8a2452fba1c2d01bb057c3eaaf8c0c96af85d9325daf4b4ea1cd0f5ed4cbb0e",
+          "sha256": "32115cd2f3ffcf8ab8ad053ca23f52755ab880bc41b5fe3d2fa523d3f0575cbd",
+          "sha1": "47d1c41b5aaf6576e6f25b2d5a71fda30e67fad7",
+          "md5": "b28b1a9fc9d6d233d9b78bc724adfbe4"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "khell-log-jvm-0.0.1-alpha03-sources.jar",
+          "url": "khell-log-jvm-0.0.1-alpha03-sources.jar",
+          "size": 1551,
+          "sha512": "e835d05ba1c45982fcdfe74cd374f81bf28f547c7a5ff786ce67299e813c34087ed4595c4f82435cf26e0ad558068f544d2da2ce35bf79c911b66f50aa69ae01",
+          "sha256": "8b047e88ba5e9bc326712388a4c3e34302feba946ec66339b3751bf198eb85ab",
+          "sha1": "4730e2e8ddb510b86760c931577c5791081497f6",
+          "md5": "b7db27400a9cfb4c1b37fc0d7f5e8018"
+        }
+      ]
+    }
+  ]
+}

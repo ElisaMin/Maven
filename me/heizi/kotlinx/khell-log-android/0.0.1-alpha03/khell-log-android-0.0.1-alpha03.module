@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../khell-log/0.0.1-alpha03/khell-log-0.0.1-alpha03.module",
+    "group": "me.heizi.kotlinx",
+    "module": "khell-log",
+    "version": "0.0.1-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-log-release.aar",
+          "url": "khell-log-android-0.0.1-alpha03.aar",
+          "size": 4628,
+          "sha512": "da02a3e6c8e848e91499020b103a18ae238cd1f9a6fbc928659cb1090e3c6949c4fc3684d709690240cc9c9081ca9c9a3c3c8f0197fe8208d7e08a5580c0a5ce",
+          "sha256": "aa9f9abbd6f6f6bd94e0f2cf3978e46d39f720b98e48ed54ce8d9dd8e51b3491",
+          "sha1": "5bf968439dd3a59a5d43c3969eed189c87f5b0bf",
+          "md5": "3b90d1b05486ffc2971fc516deab36e9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-log-release.aar",
+          "url": "khell-log-android-0.0.1-alpha03.aar",
+          "size": 4628,
+          "sha512": "da02a3e6c8e848e91499020b103a18ae238cd1f9a6fbc928659cb1090e3c6949c4fc3684d709690240cc9c9081ca9c9a3c3c8f0197fe8208d7e08a5580c0a5ce",
+          "sha256": "aa9f9abbd6f6f6bd94e0f2cf3978e46d39f720b98e48ed54ce8d9dd8e51b3491",
+          "sha1": "5bf968439dd3a59a5d43c3969eed189c87f5b0bf",
+          "md5": "3b90d1b05486ffc2971fc516deab36e9"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "khell-log-android-0.0.1-alpha03-sources.jar",
+          "url": "khell-log-android-0.0.1-alpha03-sources.jar",
+          "size": 1482,
+          "sha512": "e7029c19f848cca4318dbe058f44f334a421542bb507ca07e3ee437d068edbb2c706a8fab953f8227aed946d59516e79266c316b7211a90f405b6f33b5851b95",
+          "sha256": "899e247437b9a8a86d3585dd985eff5818efb6d1a261f58ff76e2866baf7a467",
+          "sha1": "d2aceaae4867f818d8510c1f4e17e446e4e17cd7",
+          "md5": "3cc86ba328d219fdb422706ac82d084b"
+        }
+      ]
+    }
+  ]
+}

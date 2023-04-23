@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../khell-api/0.0.1-alpha03/khell-api-0.0.1-alpha03.module",
+    "group": "me.heizi.kotlinx",
+    "module": "khell-api",
+    "version": "0.0.1-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "me.heizi.kotlinx",
+          "module": "khell-log",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-api-jvm-0.0.1-alpha03.jar",
+          "url": "khell-api-jvm-0.0.1-alpha03.jar",
+          "size": 47621,
+          "sha512": "0b7057287438661cf26fab967fbdfde9d10ac20cfd838cef7ae45ceb47b8f46a5be2d45924224ea7c1827e7571ea814709130a15ca0fa09e930597b28281061e",
+          "sha256": "931bf11ccd69ca79cafba16837ba593fc775347e900465664205e774c534619b",
+          "sha1": "5330c1669030dd896ba43bb98556bce36e5451e1",
+          "md5": "36cecd649a0b7f09b54342827e2b3613"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "me.heizi.kotlinx",
+          "module": "khell-log",
+          "version": {
+            "requires": "0.0.1-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khell-api-jvm-0.0.1-alpha03.jar",
+          "url": "khell-api-jvm-0.0.1-alpha03.jar",
+          "size": 47621,
+          "sha512": "0b7057287438661cf26fab967fbdfde9d10ac20cfd838cef7ae45ceb47b8f46a5be2d45924224ea7c1827e7571ea814709130a15ca0fa09e930597b28281061e",
+          "sha256": "931bf11ccd69ca79cafba16837ba593fc775347e900465664205e774c534619b",
+          "sha1": "5330c1669030dd896ba43bb98556bce36e5451e1",
+          "md5": "36cecd649a0b7f09b54342827e2b3613"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "khell-api-jvm-0.0.1-alpha03-sources.jar",
+          "url": "khell-api-jvm-0.0.1-alpha03-sources.jar",
+          "size": 5989,
+          "sha512": "a9419633ddc2aed2acf4d67e59f3a289fb842a88a7a9b13e606f17786c4631caa357d998e7510a9156dea04d42c68efa428392756b2414d77bf0a81d311a9d97",
+          "sha256": "b47ccc5fe886e869d37d6061c795a3074d626bc5748670dd28f8fc3eb7f3e3b9",
+          "sha1": "62ced68de07f117affd38a69dd0870a008aa84a6",
+          "md5": "196f5f3beff1d7159bf9c3b828407cd3"
+        }
+      ]
+    }
+  ]
+}

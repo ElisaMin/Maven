@@ -3,13 +3,14 @@
   <groupId>me.heizi.kotlinx</groupId>
   <artifactId>khell-log-jvm</artifactId>
   <versioning>
-    <latest>0.0.1-alpha02</latest>
-    <release>0.0.1-alpha02</release>
+    <latest>0.0.1-alpha03</latest>
+    <release>0.0.1-alpha03</release>
     <versions>
       <version>0.0.0-alpha00</version>
       <version>0.0.0-alpha01</version>
       <version>0.0.1-alpha02</version>
+      <version>0.0.1-alpha03</version>
     </versions>
-    <lastUpdated>20230420005839</lastUpdated>
+    <lastUpdated>20230423115851</lastUpdated>
   </versioning>
 </metadata>
