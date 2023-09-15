@@ -1,0 +1,196 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-m3/0.0.1-alpha05/compose-m3-0.0.1-alpha05.module",
+    "group": "me.heizi.monet-kdrag0n",
+    "module": "compose-m3",
+    "version": "0.0.1-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "windows-jnaApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "jna"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-windows-jna-0.0.1-alpha05.jar",
+          "url": "compose-m3-windows-jna-0.0.1-alpha05.jar",
+          "size": 23001,
+          "sha512": "093ae1d3f2bd6ba7bac97823ef6bbae721888cf9b011417e6feaecaa5f84df1f0aa2117b449cfa2de9e96495d706303ee7a0447556944af9476416e4e43c49d2",
+          "sha256": "958a9f5e7f0d17de1a8d38172f66b3b4b960ca686e507a3478ebb2c1880486ba",
+          "sha1": "9cedc48a59206c7d726434bf5de72e9ced4a3403",
+          "md5": "ef5dce8948c6d1f69e23d59c4b9dd42a"
+        }
+      ]
+    },
+    {
+      "name": "windows-jnaRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "jna"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "dev.kdrag0n",
+          "module": "colorkt",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "me.heizi.monet-kdrag0n",
+          "module": "monet-kdrag0n",
+          "version": {
+            "requires": "0.0.1-alpha05"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-windows-jna-0.0.1-alpha05.jar",
+          "url": "compose-m3-windows-jna-0.0.1-alpha05.jar",
+          "size": 23001,
+          "sha512": "093ae1d3f2bd6ba7bac97823ef6bbae721888cf9b011417e6feaecaa5f84df1f0aa2117b449cfa2de9e96495d706303ee7a0447556944af9476416e4e43c49d2",
+          "sha256": "958a9f5e7f0d17de1a8d38172f66b3b4b960ca686e507a3478ebb2c1880486ba",
+          "sha1": "9cedc48a59206c7d726434bf5de72e9ced4a3403",
+          "md5": "ef5dce8948c6d1f69e23d59c4b9dd42a"
+        }
+      ]
+    },
+    {
+      "name": "windows-jnaSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "jna"
+      },
+      "files": [
+        {
+          "name": "compose-m3-windows-jna-0.0.1-alpha05-sources.jar",
+          "url": "compose-m3-windows-jna-0.0.1-alpha05-sources.jar",
+          "size": 3753,
+          "sha512": "52cee89513d0ea470c9790f06150d66435322d3700920e4f9c8982fc233c99e2b5a1e540104b32f3b47102eb7f17448be1acf2e8fde4a12ee947b04c31766aac",
+          "sha256": "3fdb51717a80a1e61e5eecf05ccdaef0acd1a4fcc2d356da7784f11e43929d83",
+          "sha1": "8f944bc9b60750938f91dcc83923cf046d818ded",
+          "md5": "c8b8d2332ef37d5c73dcf204772bd5eb"
+        }
+      ]
+    }
+  ]
+}

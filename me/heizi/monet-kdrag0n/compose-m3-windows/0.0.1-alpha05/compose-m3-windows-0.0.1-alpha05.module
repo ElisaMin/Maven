@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-m3/0.0.1-alpha05/compose-m3-0.0.1-alpha05.module",
+    "group": "me.heizi.monet-kdrag0n",
+    "module": "compose-m3",
+    "version": "0.0.1-alpha05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "windowsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "main"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-windows-0.0.1-alpha05.jar",
+          "url": "compose-m3-windows-0.0.1-alpha05.jar",
+          "size": 24688,
+          "sha512": "e49d68c4de25aeae5580cc4ffc5014c2a847c9735c83bcbaa1b2c20bf2001f4250f655776617d55fb9c0952c49037dea989335c0ee37d76dba8a9c3813391bd0",
+          "sha256": "be978040314bea50658b08ea10a5a782f09d129d8164064442740b00318f8a37",
+          "sha1": "b723efea8a756a3757c40f8ff5c688927a00d48c",
+          "md5": "7dfc39317cf232a8d1126e10ea0efa8f"
+        }
+      ]
+    },
+    {
+      "name": "windowsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "main"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "dev.kdrag0n",
+          "module": "colorkt",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "me.heizi.monet-kdrag0n",
+          "module": "monet-kdrag0n",
+          "version": {
+            "requires": "0.0.1-alpha05"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-m3-windows-0.0.1-alpha05.jar",
+          "url": "compose-m3-windows-0.0.1-alpha05.jar",
+          "size": 24688,
+          "sha512": "e49d68c4de25aeae5580cc4ffc5014c2a847c9735c83bcbaa1b2c20bf2001f4250f655776617d55fb9c0952c49037dea989335c0ee37d76dba8a9c3813391bd0",
+          "sha256": "be978040314bea50658b08ea10a5a782f09d129d8164064442740b00318f8a37",
+          "sha1": "b723efea8a756a3757c40f8ff5c688927a00d48c",
+          "md5": "7dfc39317cf232a8d1126e10ea0efa8f"
+        }
+      ]
+    },
+    {
+      "name": "windowsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "system.platform": "windows",
+        "system.platform.fork": "main"
+      },
+      "files": [
+        {
+          "name": "compose-m3-windows-0.0.1-alpha05-sources.jar",
+          "url": "compose-m3-windows-0.0.1-alpha05-sources.jar",
+          "size": 4083,
+          "sha512": "290d8d9a53818973eeb5ee6fa88a524152c4a9600cc5cd830edbf2d8b118f73a9e76969f401883e44cc9676a72069e2b37c5a0c1a751ebf19137902a011315dc",
+          "sha256": "00acbe9f309391dae28473a14f3bb66d62154d8b0862c21daace1d85959ecf9b",
+          "sha1": "2b8614e421088a17ada3d28826bf7664812f7f9d",
+          "md5": "707e486cefd22956e3604e9ba5f7521c"
+        }
+      ]
+    }
+  ]
+}
