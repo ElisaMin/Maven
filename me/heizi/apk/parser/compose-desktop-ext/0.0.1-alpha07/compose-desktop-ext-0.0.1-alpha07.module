@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.heizi.apk.parser",
+    "module": "compose-desktop-ext",
+    "version": "0.0.1-alpha07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-windows-x64",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-desktop-ext-0.0.1-alpha07.jar",
+          "url": "compose-desktop-ext-0.0.1-alpha07.jar",
+          "size": 15862,
+          "sha512": "c86e563927c85d7423a35488fbf13ae2d1cd720539cca7f3ed46c3f5c69b0c0d276ee1f38ccfd0b8256759ce0ed7064ea7ac3daef96324f60260b2da4ebb5691",
+          "sha256": "42edae72e6e6eb53f88f2047c6d1758329f735f6d6459633f8e6c635efb1ae94",
+          "sha1": "99c6c4d62c54a49cabcc654489548a75ae3b0b70",
+          "md5": "8f19596d98b27a0c4e1b39299f1dd410"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.dongliu.apk.parser",
+          "module": "apk-parser",
+          "version": {
+            "requires": "0.0.1-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.desktop",
+          "module": "desktop-jvm-windows-x64",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-desktop-ext-0.0.1-alpha07.jar",
+          "url": "compose-desktop-ext-0.0.1-alpha07.jar",
+          "size": 15862,
+          "sha512": "c86e563927c85d7423a35488fbf13ae2d1cd720539cca7f3ed46c3f5c69b0c0d276ee1f38ccfd0b8256759ce0ed7064ea7ac3daef96324f60260b2da4ebb5691",
+          "sha256": "42edae72e6e6eb53f88f2047c6d1758329f735f6d6459633f8e6c635efb1ae94",
+          "sha1": "99c6c4d62c54a49cabcc654489548a75ae3b0b70",
+          "md5": "8f19596d98b27a0c4e1b39299f1dd410"
+        }
+      ]
+    }
+  ]
+}
